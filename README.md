@@ -31,7 +31,7 @@ From the heatmap, we can further observe the searches are concentrated between h
 During the winter holiday period (weeks 40 through 52), there is an obvious increasing trend between week 42 through 48 and followed by a decreasing trend.
 
 ### Relate the search traffic to stock price patterns
-**Analysis Period Jan 2020 to Jun 2020**
+**Analysis Period Jan 2020 to Jun 2020** <br>
 ![](./Diagram/stockprice_timeseries.png)
 In the first quarter 2020, the market was hit with global pandemic shock. We observe a sharp decrease in the stock prices during that time. Subsequent months after March 2020, we observe steady increase month on month. This observation is consistent with the narrative ".. after the initial shock to the global financial markets, new customers and revenue increased for e-commerce platforms."
 

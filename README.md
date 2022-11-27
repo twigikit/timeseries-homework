@@ -1,6 +1,6 @@
 # timeseries-homework
 
-This exercise involve using Google Colab to produce a Jupyter notebook that contains data preparation, analysis (including predictive modelling) and visualisations for all the time series used.
+This exercise requires using Google Colab to produce a Jupyter notebook that contains data preparation, analysis (including predictive modelling) and visualisations for all the time series used.
 
 Key objectives of the exercise are:
 * Identify patterns in the time series data. We look at three set of time series data: <br>

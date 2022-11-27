@@ -13,35 +13,35 @@ Key objectives of the exercise are:
 
 ## Findings
 ### Unusual Patterns in Hourly Google Search Traffic
-Mercado Libre announced its first quarter 2020 financial result on the 5th May 2020. On the result announcement day, the number of google search traffic on the company is significantly higher than usual. 
+Mercado Libre announced its first quarter 2020 financial result on the 5th May 2020. On the result announcement day, the number of google search traffic on the company is significantly higher than usual. <br>
 ![](./Diagram/202005_googlesearch_plot.png)
 
 When comparing the total search traffic May 2020 (33101) to the monthly median across all the months (33896), there is no unusual pattern identified. 
 
 ### Mine the Search Traffic Data for seasonality
 ### Day of the week
-![](./Diagram/average_search_traffic_dayofweek.png)
+![](./Diagram/average_search_traffic_dayofweek.png) <br>
 From the average search traffic by the day of week, we tend to see high search traffic between Tuesday to Thursday and low search traffic on the weekends. 
 
-![](./Diagram/heatmap.png)
+![](./Diagram/heatmap.png)<br>
 From the heatmap, we can further observe the searches are concentrated between hours 22-23 and hours 0-1 of the day.
 
 #### Week of the year
-![](./Diagram/search_traffic_weekofyear.png)
+![](./Diagram/search_traffic_weekofyear.png) <br>
 During the winter holiday period (weeks 40 through 52), there is an obvious increasing trend between week 42 through 48 and followed by a decreasing trend.
 
 ### Relate the search traffic to stock price patterns
 **Analysis Period Jan 2020 to Jun 2020** <br>
-![](./Diagram/stockprice_timeseries.png)
+![](./Diagram/stockprice_timeseries.png)<br>
 In the first quarter 2020, the market was hit with global pandemic shock. We observe a sharp decrease in the stock prices during that time. Subsequent months after March 2020, we observe steady increase month on month. This observation is consistent with the narrative ".. after the initial shock to the global financial markets, new customers and revenue increased for e-commerce platforms."
 
 #### Relationship between lagged search traffic and stock volatility or stock price return
-![](./Diagram/timeseries_correlation.png)
+![](./Diagram/timeseries_correlation.png) <br>
 
 From the correlation matrix, stock volatility is weakly negative correlated with the lagged search trend. There is closed to no correlation between the lagged search traffic and the stock price return. From the correlation coeficients, we can deduce that there is no predictable relationship exist between the lagged search traffic and the stock volatility or between the lagged search traffic and the stock price returns.
 
 ### Forecast patterns in the hourly search data
-![](./Diagram/trend_hourlysearch.png)
+![](./Diagram/trend_hourlysearch.png) <br>
 We apply the hourly search data to Prophet forecast data. Using the five years data from 2015-2020, the popularity of Mercado Libre is forecasted to decrease in the near-term.
 
 From the individual time series component of the model, <br>

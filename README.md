@@ -49,7 +49,7 @@ From the individual time series component of the model, <br>
 * midnight 00:00 hour exhibits the greatest popularity and
 * New year day (1 Jan) has the lowest search traffic in the calendar year.
 
-### (Optional) Forecast sales revenue
+### Forecast sales revenue
 To forecast the sales revenue for the next quarter (i.e 2020-07-01 to 2020-09-30), we apply the Prophet forecast model to sales data 2019-1H 2020. Based on the forecast information generated, <br>
 * the most likely for the next quarter expected total sales revenue is USD 970m, <br>
 * the best case scenario will be USD 1,051m and <br>
